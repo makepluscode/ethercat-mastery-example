@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Ihost
+    - -Ifirmware/src
+Diagnostics:
+  ClangTidy:
+    FastCheckFilter: Loose
